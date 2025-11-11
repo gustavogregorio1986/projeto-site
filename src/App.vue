@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="container"h1>
     <Header />
     <Home />
     <Footer />
@@ -20,3 +20,11 @@ export default {
   }
 }
 </script>
+
+<style>
+.container {
+  max-width: 1200px; /* ou 100%, se quiser ocupar tudo */
+  margin: 0 auto;
+  padding: 0 20px;
+}
+</style>
